@@ -31,11 +31,11 @@
       </div>
       <div class="about-illustration fancy-illustration">
         <div class="about-logo-bubble animate-pop-in">
-          <img src="/public/assets/img/logo_colegio.png" alt="Logo Biblioteca" class="about-logo" />
+          <img src="public\assets\img\logo_colegio.png" alt="Logo Biblioteca" class="about-logo" />
         </div>
         <div class="fancy-books">
-          <img src="/public/assets/img/Cien_años-de-soledad.jpg" class="book book1" alt="Libro 1" />
-          <img src="/public/assets/img/El_principito.jpg" class="book book2" alt="Libro 2" />
+          <img src="C:\xampp\htdocs\Biblioteca-escolar\public\assets\img\Cien_años-de-soledad.jpg" class="book book1" alt="Libro 1" />
+          <img src="C:\xampp\htdocs\Biblioteca-escolar\public\assets\img\El_principito.jpg" class="book book2" alt="Libro 2" />
         </div>
         <div class="about-quote animate-fade-in" style="animation-delay:0.8s;">
           <q>“Un libro es un sueño que tienes en tus manos.”</q>
