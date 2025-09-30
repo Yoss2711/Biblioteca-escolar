@@ -16,10 +16,12 @@ $pageDescription = "Descubre un mundo infinito de conocimiento";
     <?php include '../components/auth/home/header.php'; ?>
     
     <main>
-        <?php include '../src/views/home/hero-section.php'; ?>
-        <?php include '../src/views/home/catalog-preview.php'; ?>
-        <?php include '../src/views/home/features-section.php'; ?>
-        <?php include '../src/views/home/stats-section.php'; ?>
+    <?php include '../src/views/home/hero-section.php'; ?>
+    <?php include '../src/views/home/catalog-preview.php'; ?>
+    <?php include '../src/views/home/features-section.php'; ?>
+    <?php include '../src/views/home/stats-section.php'; ?>
+    <?php include '../src/views/home/about-us.php'; ?>
+    <?php include '../src/views/home/contact-section.php'; ?>
     </main>
 
     <?php include '../components/auth/home/footer.php'; ?>
