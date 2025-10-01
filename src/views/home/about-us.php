@@ -34,8 +34,8 @@
           <img src="public\assets\img\logo_colegio.png" alt="Logo Biblioteca" class="about-logo" />
         </div>
         <div class="fancy-books">
-          <img src="https://m.media-amazon.com/images/I/518FWQQOhtL.jpg" class="book book1" alt="Libro 1" />
-          <img src="https://th.bing.com/th/id/R.e238ea2bcaf89e20c622ed44cf2b1468?rik=ZIw%2bgi1L2bhyYQ&pid=ImgRaw&r=0" class="book book2" alt="Libro 2" />
+          <img src="/public/assets/img/Cien_años-de-soledad.jpg" class="book book1" alt="Libro 1" />
+          <img src="/public/assets/img/El_principito.jpg" class="book book2" alt="Libro 2" />
         </div>
         <div class="about-quote animate-fade-in" style="animation-delay:0.8s;">
           <q>“Un libro es un sueño que tienes en tus manos.”</q>
