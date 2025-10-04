@@ -2,6 +2,9 @@
 // Configuración inicial
 $pageTitle = "Biblioteca Virtual - Colegio María Inmaculada";
 $pageDescription = "Descubre un mundo infinito de conocimiento";
+
+// Definir la URL base para los assets
+define('BASE_URL', '/Biblioteca-escolar/public/');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -18,8 +21,7 @@ $pageDescription = "Descubre un mundo infinito de conocimiento";
     <main>
     <?php include '../src/views/home/hero-section.php'; ?>
     <?php include '../src/views/home/catalog-preview.php'; ?>
-    <?php include '../src/views/home/features-section.php'; ?>
-    <?php include '../src/views/home/stats-section.php'; ?>
+    <?php include '../src/views/home/services-section.php'; ?>
     <?php include '../src/views/home/about-us.php'; ?>
     <?php include '../src/views/home/contact-section.php'; ?>
     </main>

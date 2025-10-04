@@ -1,30 +1,29 @@
-<section id="servicios" class="servicios-edu-section">
-  <div class="servicios-edu-bg"></div>
-  <div class="servicios-edu-header animate-fade-in">
-    <h2>Nuestros Servicios</h2>
-    <p>Ofrecemos una experiencia completa de aprendizaje digital con herramientas modernas y contenido de calidad</p>
-  </div>
-  <div class="servicios-edu-cards">
-    <div class="servicios-edu-card animate-pop-in" style="animation-delay:0.1s;">
-      <div class="servicios-edu-icon">
-        <img src="/public/assets/img/catalogo-icon.png" alt="Catálogo Digital" />
-      </div>
-      <h3>Catálogo Digital</h3>
-      <p>Accede a miles de libros digitales, revistas académicas y recursos multimedia organizados por materias y niveles educativos.</p>
-    </div>
-    <div class="servicios-edu-card animate-pop-in" style="animation-delay:0.3s;">
-      <div class="servicios-edu-icon">
-        <img src="/public/assets/img/busqueda-icon.png" alt="Búsqueda Inteligente" />
-      </div>
-      <h3>Búsqueda Inteligente</h3>
-      <p>Encuentra rápidamente el contenido que necesitas con nuestro sistema de búsqueda avanzada y filtros especializados.</p>
-    </div>
-    <div class="servicios-edu-card animate-pop-in" style="animation-delay:0.5s;">
-      <div class="servicios-edu-icon">
-        <img src="/public/assets/img/plataforma-icon.png" alt="Plataforma Interactiva" />
-      </div>
-      <h3>Plataforma Interactiva</h3>
-      <p>Disfruta de una experiencia de lectura enriquecida con herramientas de anotación, marcadores y compartir contenido.</p>
+<section class="services section bubbles" id="servicios">
+  <div class="container">
+    <h2 class="section-title">Lo que puedes hacer</h2>
+    <p class="section-sub">Herramientas pensadas para lectores, estudiantes y docentes.</p>
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="icon">🔎</div>
+        <h3>Búsqueda avanzada</h3>
+        <p>Filtra por autor, año, idioma, editorial, tipo de recurso y disponibilidad.</p>
+      </article>
+      <article class="card reveal" style="animation-delay:.06s">
+        <div class="icon">📚</div>
+        <h3>Listas y favoritos</h3>
+        <p>Crea colecciones personales, comparte bibliografías y sigue autores.</p>
+      </article>
+      <article class="card reveal" style="animation-delay:.12s">
+        <div class="icon">📝</div>
+        <h3>Notas y subrayado</h3>
+        <p>Anota directamente en el lector y exporta tus apuntes a PDF o Word.</p>
+      </article>
+      <article class="card reveal" style="animation-delay:.18s">
+        <div class="icon">⬇️</div>
+        <h3>Descarga segura</h3>
+        <p>EPUB/PDF disponibles según licencia para leer sin conexión cuando quieras.</p>
+      </article>
     </div>
   </div>
 </section>

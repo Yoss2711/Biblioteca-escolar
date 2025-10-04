@@ -400,19 +400,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #0f172a; /* Fondo oscuro para resaltar shapes y burbujas */
-  overflow: hidden; /* Oculta scroll si shapes/burbujas salen del viewport */
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  color: white;
-}
-
 @keyframes bgMove {
   0% {
     background-position: 0% 50%;
@@ -425,7 +412,7 @@ body {
   }
 }
 
-.container {
+.auth-container {
   background: rgba(255, 255, 255, 0.95);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);

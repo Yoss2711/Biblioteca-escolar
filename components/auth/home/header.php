@@ -2,7 +2,7 @@
     <nav class="container">
         <a href="#" class="logo">
             <div class="logo-icon">
-                <img src="public\assets\img\logo_colegio.png" alt="Icono">
+                <img src="<?php echo BASE_URL; ?>assets/img/logo_colegio.png" alt="Icono">
             </div>
             <div>
                 <div style="font-size: 0.9rem; color: #87ceeb;">Colegio</div>
