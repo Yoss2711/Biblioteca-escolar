@@ -89,6 +89,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: var(--header-height);
+    gap: 2rem; /* Añadimos espacio entre logo, links y botón */
 }
 
 .logo {
@@ -99,6 +100,7 @@ header nav {
     color: var(--color-text-dark);
     font-weight: 700;
     font-size: 1.2rem;
+    flex-shrink: 0; /* Evita que el logo se encoja */
 }
 
 .logo-icon img {
@@ -116,6 +118,7 @@ header nav {
     list-style: none;
     gap: 25px;
     align-items: center;
+    margin: 0 auto; /* Centra los links en el espacio sobrante */
 }
 
 .nav-links a {
@@ -148,8 +151,9 @@ header nav {
 .btn-login {
     background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
     color: var(--color-white) !important;
-    padding: 10px 20px;
+    padding: 14px 38px;
     border-radius: 50px;
+    font-size: 1rem;
     transition: all 0.3s ease;
 }
 

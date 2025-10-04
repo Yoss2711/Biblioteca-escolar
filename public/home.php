@@ -10,7 +10,7 @@ $pageDescription = "Descubre un mundo infinito de conocimiento";
 <html lang="es">
 <head>
     <?php include '../components/auth/home/head.php'; ?>
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/home.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>asset.php?file=assets/css/home.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body>
@@ -26,6 +26,6 @@ $pageDescription = "Descubre un mundo infinito de conocimiento";
 
     <?php include '../components/auth/home/footer.php'; ?>
 
-    <script src="<?php echo BASE_URL; ?>assets/js/home/main.js"></script>
+    <script src="<?php echo BASE_URL; ?>asset.php?file=assets/js/home/main.js"></script>
 </body>
 </html>

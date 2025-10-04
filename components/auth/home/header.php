@@ -22,8 +22,8 @@ $nav_items = [
                 <?php foreach ($nav_items as $id => $text): ?>
                     <li><a href="#<?php echo $id; ?>"><?php echo $text; ?></a></li>
                 <?php endforeach; ?>
-                <li><a href="#" class="btn-login">Ingresar</a></li>
             </ul>
+            <a href="#" class="btn-login">Ingresar</a>
             <button class="menu-toggle" aria-label="Abrir menú">☰</button>
         </nav>
     </div>

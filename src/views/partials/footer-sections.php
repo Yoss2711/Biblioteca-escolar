@@ -13,8 +13,9 @@
 </div>
 <div class="footer-section">
     <h4>Contacto</h4>
-    <p>Av. Huancavelica N° 606<br>Junín - Huancayo - Chilca, Perú</p>
+     <p>Av. Mariscal Castilla 4534<br>Junín - Huancayo, Perú
     <p>biblioteca@cmi.edu.pe</p>
+
 </div>
 <div class="footer-section">
     <h4>Redes Sociales</h4>
