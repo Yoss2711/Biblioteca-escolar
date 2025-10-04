@@ -7,7 +7,8 @@ AddDefaultCharset UTF-8
 
 # Y sé explícito para los tipos de archivo clave para máxima compatibilidad.
 <IfModule mod_mime.c>
-    AddCharset UTF-8 .css .js .json .xml .svg
+    AddType 'text/css; charset=UTF-8' .css
+    AddType 'text/javascript; charset=UTF-8' .js
 </IfModule>
 
 # Configuración de encabezados de seguridad y caché modernos.

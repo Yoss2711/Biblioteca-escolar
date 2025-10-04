@@ -9,9 +9,9 @@
         <?php
         // Datos de ejemplo. Esto debería venir de tu base de datos.
         $preview_books = [
-            ['title' => 'Cien Años de Soledad', 'author' => 'Gabriel García Márquez', 'image' => 'libro1.jpg'],
-            ['title' => 'Don Quijote', 'author' => 'Miguel de Cervantes', 'image' => 'libro2.jpg'],
-            ['title' => 'La Sombra del Viento', 'author' => 'Carlos Ruiz Zafón', 'image' => 'libro3.jpg'],
+            ['title' => 'Cien Años de Soledad', 'author' => 'Gabriel García Márquez', 'image' => 'Cien_años-de-soledad.jpg'],
+            ['title' => 'Don Quijote', 'author' => 'Miguel de Cervantes', 'image' => 'Don-quijote.png'],
+            ['title' => 'La Sombra del Viento', 'author' => 'Carlos Ruiz Zafón', 'image' => 'La-sombra-del-viento.png'],
         ];
         ?>
 
@@ -21,7 +21,7 @@
                     <div style="transition-delay: <?php echo $index * 0.2; ?>s;">
                         <?php 
                         // Pasamos la variable $book al scope del include
-                        include '../../src/views/partials/book-card-preview.php'; 
+                        include __DIR__ . '/../../../src/views/partials/book-card-preview.php'; 
                         ?>
                     </div>
                 <?php endforeach; ?>
