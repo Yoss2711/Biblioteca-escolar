@@ -1,11 +1,11 @@
-<div class="book-card preview">
-    <img src="<?php echo BASE_URL; ?>assets/img/books/<?php echo $book['image']; ?>" alt="Portada del libro">
+<?php
+/*
+ * Componente para mostrar una tarjeta de libro en la vista previa del catálogo.
+ * Espera una variable $book (array) con 'image', 'title', 'author'.
+ */
+?>
+<div class="card reveal">
+    <img src="https://via.placeholder.com/150x220.png?text=<?php echo urlencode($book['title']); ?>" alt="Portada de <?php echo htmlspecialchars($book['title']); ?>" style="width:150px; height:220px; border-radius: 8px; margin-bottom: 1rem; object-fit: cover;">
     <h3><?php echo htmlspecialchars($book['title']); ?></h3>
     <p><?php echo htmlspecialchars($book['author']); ?></p>
-    <span class="status <?php echo $book['status']; ?>">
-        <?php echo $book['status'] === 'disponible' ? 'Disponible' : 'Prestado'; ?>
-    </span>
-    <button class="btn preview-btn" onclick="showLoginPrompt()">
-        <?php echo $book['status'] === 'disponible' ? 'Ingresar para Prestar' : 'No disponible'; ?>
-    </button>
 </div>
